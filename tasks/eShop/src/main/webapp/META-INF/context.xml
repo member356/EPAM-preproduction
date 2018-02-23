@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource
+            name="jdbc/database" type="javax.sql.DataSource"
+            maxTotal="10" maxIdle="30" maxWaitMillis="10000"
+            url="jdbc:mysql://localhost:3306/db"
+            driverClassName="com.mysql.jdbc.Driver"
+            defaultAutoCommit="false"
+            defaultTransactionIsolation="READ_COMMITTED"
+            username="root" password="root"
+    />
+</Context>

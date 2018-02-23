@@ -1,0 +1,28 @@
+<nav class="navbar navbar-inverse navbar-custom navbar-static-top">
+    <div class="navbar-header" align="center">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/eShop/"><img src="images/logo.png" width="80" height="80"></a>
+    </div>
+    <div class="navbar-collapse collapse" align="center">
+        <ul class="nav navbar-nav navbar-right navbartext">
+            <c:if test="${not empty sessionScope.user}">
+                <li>
+                    User: ${sessionScope.user.firstName} ${sessionScope.user.lastName}
+                </li>
+                <li>
+                    <div class="button-t">
+                        <span><img src="avatar" width="80" height="80"/></span>
+                	</div>
+                </li>
+                <li>
+                    <a href="/eShop/logout">Logout</a>
+                </li>
+            </c:if>
+        </ul>
+    </div>
+</nav>

@@ -1,0 +1,176 @@
+body {
+    background: transparent !important;
+    background: rgba(0, 0, 0, 0.74) !important;
+    font-size: 19px;
+    color: #968f72;
+    font-family: "Courier New", Courier, monospace;
+}
+
+a {
+    color: #ffbbbc;
+}
+
+a:hover {
+    color: #f9f2f4;
+}
+
+.error {
+    font-size: 18px !important;
+    color: #ff0000 !important;
+    align: center;
+
+}
+
+.errormsg {
+    font-size: 12px !important;
+    color: #ff0000 !important;
+    align: right;
+}
+
+html {
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar-custom {
+    background-color:#30130A !important;
+    color:#968f72;
+    border-bottom: solid white 1px;
+    opacity: 0.7;
+    height: 98px;
+}
+
+span.glyphicon-log-out {
+    font-size: 1.4em;
+    color: #968f72;
+    top: 3px;
+}
+
+.navbartext{
+    position: relative;
+    top: 20px !important;
+    right:50px !important;
+}
+
+.panel-danger{
+    width: 400px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5) !important;
+    margin-top: 30px;
+    border: solid white 1px;
+
+}
+
+.divajax{
+    font-size: 14px;
+}
+
+.carousel-inner img {
+      width: 60%;
+      margin: auto;
+      min-height:200px;
+  }
+
+
+.btn-group{
+   width: 300px;
+   margin: 0 auto;
+}
+
+.btn {
+    color: #756b49;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #452319, #000000);
+    border: solid #ffffff 1px;
+    padding: 12px 20px 12px 20px;
+    position: relative;
+    text-transform: uppercase;
+    vertical-align: middle;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn:hover {
+    color: #452319;
+    background-image: linear-gradient(to bottom, #756b49, #ffffff);
+    border: solid #452319 1px;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 1);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+
+}
+
+.guarantee{
+    margin-top: 50px;
+    color: white;
+    font-size: 14px;
+}
+.timetag{
+    position: relative;
+    margin-left: 50px;
+}
+.unicodeglygh{
+    color: white;
+    position: relative;
+    margin-top: 10px !important;
+    font-size: 30px;
+}
+
+.logoutglyph{
+    color: #756b49;
+    position: relative;
+    margin-top: 10px !important;
+    font-size: 30px;
+}
+
+.alert-warning{
+    background: rgba(0, 0, 0, 0.7) !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border: solid white 1px;
+}
+.close{
+    color: white !important;
+    font-size: 20px;
+}
+
+#filter, #s{
+    font-size: 16px;
+    color: #452319;
+}
+
+.circlebutton{
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom, #452319, #000000);
+    position: relative;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.theadoftable, #raceapphead{
+    color: white;
+}
+
+table{
+    font-size: 19px;
+    align-content: space-between;
+    background: rgba(0, 0, 0, 0.5) !important;
+    border: solid white 0.5px !important;
+}
+
+.badge{
+    background-color: red;
+}
+.disabled{
+    background-image: linear-gradient(to bottom, #ffffff, #47494a);
+    color: black !important;
+}
